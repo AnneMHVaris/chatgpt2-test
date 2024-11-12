@@ -1,0 +1,9 @@
+Flask
+Gunicorn
+flask_socketio
+openai
+logging
+haystack.telemetry
+typing
+json
+pprint

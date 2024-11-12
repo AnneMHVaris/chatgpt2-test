@@ -1,0 +1,1131 @@
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - werkzeug -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO - werkzeug -  [33mPress CTRL+C to quit[0m
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+WARNING - werkzeug -   * Debugger is active!
+INFO - werkzeug -   * Debugger PIN: 856-088-262
+INFO - werkzeug -   * Detected change in 'C:\\Users\\anne\\Documents\\python\\flask\\chatgpt2\\app2.py', reloading
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+WARNING - werkzeug -   * Debugger is active!
+INFO - werkzeug -   * Debugger PIN: 856-088-262
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - werkzeug -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO - werkzeug -  [33mPress CTRL+C to quit[0m
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+WARNING - werkzeug -   * Debugger is active!
+INFO - werkzeug -   * Debugger PIN: 856-088-262
+INFO - werkzeug -   * Detected change in 'C:\\Users\\anne\\Documents\\python\\flask\\chatgpt2\\app2.py', reloading
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - werkzeug -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO - werkzeug -  [33mPress CTRL+C to quit[0m
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+WARNING - werkzeug -   * Debugger is active!
+INFO - werkzeug -   * Debugger PIN: 856-088-262
+INFO - werkzeug -  127.0.0.1 - - [20/Oct/2024 16:21:42] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO - werkzeug -   * Detected change in 'C:\\Users\\anne\\Documents\\python\\flask\\chatgpt2\\app2.py', reloading
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - werkzeug -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO - werkzeug -  [33mPress CTRL+C to quit[0m
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+WARNING - werkzeug -   * Debugger is active!
+INFO - werkzeug -   * Debugger PIN: 856-088-262
+INFO - werkzeug -  127.0.0.1 - - [20/Oct/2024 16:24:50] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO - werkzeug -   * Detected change in 'C:\\Users\\anne\\Documents\\python\\flask\\chatgpt2\\app2.py', reloading
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - werkzeug -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO - werkzeug -  [33mPress CTRL+C to quit[0m
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+WARNING - werkzeug -   * Debugger is active!
+INFO - werkzeug -   * Debugger PIN: 856-088-262
+INFO - werkzeug -  127.0.0.1 - - [20/Oct/2024 16:32:06] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO - werkzeug -  127.0.0.1 - - [20/Oct/2024 16:32:15] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO - werkzeug -   * Detected change in 'C:\\Users\\anne\\Documents\\python\\flask\\chatgpt2\\app2.py', reloading
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - werkzeug -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO - werkzeug -  [33mPress CTRL+C to quit[0m
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+WARNING - werkzeug -   * Debugger is active!
+INFO - werkzeug -   * Debugger PIN: 856-088-262
+INFO - werkzeug -  127.0.0.1 - - [20/Oct/2024 16:37:12] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - werkzeug -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO - werkzeug -  [33mPress CTRL+C to quit[0m
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+WARNING - werkzeug -   * Debugger is active!
+INFO - werkzeug -   * Debugger PIN: 856-088-262
+INFO - werkzeug -  127.0.0.1 - - [20/Oct/2024 16:46:33] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO - werkzeug -  127.0.0.1 - - [20/Oct/2024 16:46:52] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO - werkzeug -   * Detected change in 'C:\\Users\\anne\\Documents\\python\\flask\\chatgpt2\\app2.py', reloading
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+WARNING - werkzeug -   * Debugger is active!
+INFO - werkzeug -   * Debugger PIN: 856-088-262
+INFO - werkzeug -  127.0.0.1 - - [20/Oct/2024 16:49:35] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO - werkzeug -  127.0.0.1 - - [20/Oct/2024 17:21:41] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO - werkzeug -   * Detected change in 'C:\\Users\\anne\\Documents\\python\\flask\\chatgpt2\\app2.py', reloading
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - werkzeug -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO - werkzeug -  [33mPress CTRL+C to quit[0m
+INFO - werkzeug -   * Restarting with stat
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\articlestext5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text1.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text10.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text11.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text12.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text13.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text14.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text15.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text16.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text17.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text18.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text19.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text2.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text20.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text21.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text22.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text23.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text24.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text25.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text26.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text27.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text28.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text29.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text3.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text30.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text31.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text32.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text4.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text5.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text6.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text7.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text8.txt
+INFO - haystack.utils.preprocessing -  Converting data\articles\text9.txt
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'd4ef33d87ad6b1c41ed351c18c99fd02' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5d02f5493dd46b6efb90e29f2fba1e80' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id 'a7bce279712930f3d5d33dcea1a4bfb0' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '319df568bfc64c8a3b39a2d8fb4b7fe9' already exists in index 'document'
+INFO - haystack.document_stores.base -  Duplicate Documents: Document with id '5f92042c38f3d96b7863406bbf92c2f5' already exists in index 'document'
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.nodes.retriever.dense -  Init retriever using embeddings of model sentence-transformers/multi-qa-mpnet-base-dot-v1
+WARNING - sentence_transformers.SentenceTransformer -  You try to use a model that was created with version 3.0.0.dev0, however, your version is 3.0.0. This might cause unexpected behavior or errors. In that case, try to update to the latest version.
+
+
+
+INFO - haystack.document_stores.memory -  Updating embeddings for 0 docs ...
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+INFO - haystack.modeling.model.language_model -   * LOADING MODEL: 'deepset/roberta-base-squad2' (Roberta)
+INFO - haystack.modeling.model.language_model -  Auto-detected model language: english
+INFO - haystack.modeling.model.language_model -  Loaded 'deepset/roberta-base-squad2' (Roberta model) from model hub.
+INFO - haystack.modeling.utils -  Using devices: CPU - Number of GPUs: 0
+WARNING - werkzeug -   * Debugger is active!
+INFO - werkzeug -   * Debugger PIN: 856-088-262
+INFO - werkzeug -  127.0.0.1 - - [20/Oct/2024 17:26:02] "[35m[1mPOST / HTTP/1.1[0m" 500 -
