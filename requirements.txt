@@ -4,5 +4,4 @@ flask_socketio
 openai
 logging
 typing
-json
 pprint
