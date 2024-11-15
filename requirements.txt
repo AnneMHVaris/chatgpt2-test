@@ -4,3 +4,4 @@ flask_socketio
 openai
 logging
 typing
+farm-haystack
