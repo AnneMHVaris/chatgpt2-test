@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, jsonify 
 import openai 
   
-"""from haystack.telemetry import tutorial_running"""
+from haystack.telemetry import tutorial_running
 import logging
-"""from haystack.document_stores import InMemoryDocumentStore
+from haystack.document_stores import InMemoryDocumentStore
 from haystack.utils import fetch_archive_from_http, convert_files_to_docs, clean_wiki_text
 from haystack.nodes import BM25Retriever, EmbeddingRetriever, FARMReader
 from haystack.nodes import BM25Retriever, EmbeddingRetriever, FARMReader
@@ -12,7 +12,7 @@ from haystack.utils import print_answers
 from haystack.pipelines import DocumentSearchPipeline
 from haystack.utils import print_documents
 from haystack.pipelines import Pipeline
-from haystack.nodes import JoinDocuments"""
+from haystack.nodes import JoinDocuments
 
 from haystack import Pipeline
 from haystack import BaseComponent
